@@ -183,3 +183,10 @@ if (!isNil "PABST_fnc_safeStart") then {[] spawn PABST_fnc_safeStart;};
 //execVM "f\headlessclient\passToHCs.sqf";
 
 // ====================================================================================
+// ====================================================================================
+// WL - Safestart Fires Indicator
+// Credits: Bismarck
+
+[] execVM "f\admin\f_admin_fireIndicator.sqf";
+
+// ====================================================================================
