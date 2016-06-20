@@ -38,6 +38,7 @@ switch (true) do {
 		_texture   = "\sc_mapmarkers\data\coy.paa";
 		_color	   = _gray;
 		_shortName = true;
+		_size	   = [40, 40];
 	};
 	case (_input in ["1PLT", "CO", "PLT"]): {
 		_texture   = "\sc_mapmarkers\data\pl.paa";		// CAN BE REPLACED WITH 1PL.PAA IF/WHEN WE EVER HAVE A SECOND PLATOON!
@@ -154,25 +155,25 @@ switch (true) do {
 
 	case (_input in ["ESL"]): {
 		_texture   = "\sc_mapmarkers\data\esl.paa";
-		_color	   = _yellow;
+		_color	   = _blue;
 		_shortName = true;
 		_size	   = [36, 36];
 	};
 	case (_input in ["E1"]): {
 		_texture   = "\sc_mapmarkers\data\e1.paa";
-		_color	   = _yellow;
+		_color	   = _blue;
 		_shortName = true;
 		_size	   = [30, 30];
 	};
 	case (_input in ["E2"]): {
 		_texture   = "\sc_mapmarkers\data\e2.paa";
-		_color	   = _yellow;
+		_color	   = _blue;
 		_shortName = true;
 		_size	   = [30, 30];
 	};
 	case (_input in ["E3"]): {
 		_texture   = "\sc_mapmarkers\data\e3.paa";
-		_color	   = _yellow;
+		_color	   = _blue;
 		_shortName = true;
 		_size	   = [30, 30];
 	};
