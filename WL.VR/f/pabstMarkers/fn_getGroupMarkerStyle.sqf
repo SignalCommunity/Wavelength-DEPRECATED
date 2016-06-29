@@ -716,8 +716,8 @@ switch (true) do {
 		_size	   = [30, 30];
 	};
 	case (_input in ["COM", "DCM", "P1M", "P2M", "PM", "AM", "BM", "CM", "DM", "EM", "FM"]): {
-		_texture   = _med;
-		_color	   = _pink;
+		_texture   = "\sc_mapmarkers\data\med.paa";
+		_color	   = _white;
 		_size	   = [16, 16];
 		_shortName = true;
 	};
