@@ -205,7 +205,7 @@ switch (true) do {
 
 
 	case (_input in ["MMG1"]): {
-		_texture   = "\sc_mapmarkers\data\mmg.paa";		// CAN BE REPLACED WITH MMG1.PAA IF MULTIPLE MMGS ARE BEING USED!
+		_texture   = "\sc_mapmarkers\data\mmg1.paa";
 		_color	   = _orange;
 		_shortName = true;
 		_size	   = [30, 30];
@@ -222,10 +222,16 @@ switch (true) do {
 		_shortName = true;
 		_size	   = [30, 30];
 	};
+	case (_input in ["MMG4"]): {
+		_texture   = "\sc_mapmarkers\data\mmg4.paa";
+		_color	   = _orange;
+		_shortName = true;
+		_size	   = [30, 30];
+	};
 
 
 	case (_input in ["HMG1"]): {
-		_texture   = "\sc_mapmarkers\data\hmg.paa";		// CAN BE REPLACED WITH HMG1.PAA IF MULTIPLE HMGS ARE BEING USED!
+		_texture   = "\sc_mapmarkers\data\hmg1.paa";
 		_color	   = _orange;
 		_shortName = true;
 		_size	   = [30, 30];
@@ -242,10 +248,16 @@ switch (true) do {
 		_shortName = true;
 		_size	   = [30, 30];
 	};
+	case (_input in ["HMG4"]): {
+		_texture   = "\sc_mapmarkers\data\hmg4.paa";
+		_color	   = _orange;
+		_shortName = true;
+		_size	   = [30, 30];
+	};
 
 
 	case (_input in ["MAT1"]): {
-		_texture   = "\sc_mapmarkers\data\mat.paa";		// CAN BE REPLACED WITH MAT1.PAA IF MULTIPLE MATS ARE BEING USED!
+		_texture   = "\sc_mapmarkers\data\mat1.paa";
 		_color	   = _orange;
 		_shortName = true;
 		_size	   = [30, 30];
@@ -262,10 +274,16 @@ switch (true) do {
 		_shortName = true;
 		_size	   = [30, 30];
 	};
+	case (_input in ["MAT4"]): {
+		_texture   = "\sc_mapmarkers\data\mat4.paa";
+		_color	   = _orange;
+		_shortName = true;
+		_size	   = [30, 30];
+	};
 
 
 	case (_input in ["HAT1"]): {
-		_texture   = "\sc_mapmarkers\data\hat.paa";		// CAN BE REPLACED WITH HAT1.PAA IF MULTIPLE HATS ARE BEING USED!
+		_texture   = "\sc_mapmarkers\data\hat1.paa";
 		_color	   = _orange;
 		_shortName = true;
 		_size	   = [30, 30];
@@ -282,10 +300,16 @@ switch (true) do {
 		_shortName = true;
 		_size	   = [30, 30];
 	};
+	case (_input in ["HAT4"]): {
+		_texture   = "\sc_mapmarkers\data\hat4.paa";
+		_color	   = _orange;
+		_shortName = true;
+		_size	   = [30, 30];
+	};
 
 
 	case (_input in ["MTR1"]): {
-		_texture   = "\sc_mapmarkers\data\mtr.paa";		// CAN BE REPLACED WITH MTR1.PAA IF MULTIPLE MTRS ARE BEING USED!
+		_texture   = "\sc_mapmarkers\data\mtr1.paa";
 		_color	   = _orange;
 		_shortName = true;
 		_size	   = [30, 30];
@@ -302,10 +326,16 @@ switch (true) do {
 		_shortName = true;
 		_size	   = [30, 30];
 	};
+	case (_input in ["MTR4"]): {
+		_texture   = "\sc_mapmarkers\data\mtr4.paa";
+		_color	   = _orange;
+		_shortName = true;
+		_size	   = [30, 30];
+	};
 
 
 	case (_input in ["MSAM1"]): {
-		_texture   = "\sc_mapmarkers\data\msam.paa";		// CAN BE REPLACED WITH MSAM1.PAA IF MULTIPLE MSAMS ARE BEING USED!
+		_texture   = "\sc_mapmarkers\data\msam1.paa";
 		_color	   = _orange;
 		_shortName = true;
 		_size	   = [30, 30];
@@ -322,10 +352,16 @@ switch (true) do {
 		_shortName = true;
 		_size	   = [30, 30];
 	};
+	case (_input in ["MSAM4"]): {
+		_texture   = "\sc_mapmarkers\data\msam4.paa";
+		_color	   = _orange;
+		_shortName = true;
+		_size	   = [30, 30];
+	};
 
 
 	case (_input in ["HSAM1"]): {
-		_texture   = "\sc_mapmarkers\data\hsam.paa";		// CAN BE REPLACED WITH HSAM1.PAA IF MULTIPLE HSAMS ARE BEING USED!
+		_texture   = "\sc_mapmarkers\data\hsam1.paa";
 		_color	   = _orange;
 		_shortName = true;
 		_size	   = [30, 30];
@@ -342,11 +378,17 @@ switch (true) do {
 		_shortName = true;
 		_size	   = [30, 30];
 	};
+	case (_input in ["HSAM4"]): {
+		_texture   = "\sc_mapmarkers\data\hsam4.paa";
+		_color	   = _orange;
+		_shortName = true;
+		_size	   = [30, 30];
+	};
 
 	// BUCK
 
 	case (_input in ["ST1"]): {
-		_texture   = "\sc_mapmarkers\data\st.paa";		// CAN BE REPLACED WITH ST1.PAA IF MULTIPLE STS ARE BEING USED!
+		_texture   = "\sc_mapmarkers\data\st1.paa";
 		_color	   = _orange;
 		_shortName = true;
 		_size	   = [30, 30];
@@ -363,10 +405,16 @@ switch (true) do {
 		_shortName = true;
 		_size	   = [30, 30];
 	};
+	case (_input in ["ST4"]): {
+		_texture   = "\sc_mapmarkers\data\st4.paa";
+		_color	   = _orange;
+		_shortName = true;
+		_size	   = [30, 30];
+	};
 
 
 	case (_input in ["DT1"]): {
-		_texture   = "\sc_mapmarkers\data\dt.paa";		// CAN BE REPLACED WITH DT1.PAA IF MULTIPLE DTS ARE BEING USED!
+		_texture   = "\sc_mapmarkers\data\dt1.paa";
 		_color	   = _orange;
 		_shortName = true;
 		_size	   = [30, 30];
@@ -383,10 +431,16 @@ switch (true) do {
 		_shortName = true;
 		_size	   = [30, 30];
 	};
+	case (_input in ["DT4"]): {
+		_texture   = "\sc_mapmarkers\data\dt4.paa";
+		_color	   = _orange;
+		_shortName = true;
+		_size	   = [30, 30];
+	};
 
 
 	case (_input in ["ENG1"]): {
-		_texture   = "\sc_mapmarkers\data\eng.paa";		// CAN BE REPLACED WITH ENG1.PAA IF MULTIPLE ENGS ARE BEING USED!
+		_texture   = "\sc_mapmarkers\data\eng1.paa";
 		_color	   = _orange;
 		_shortName = true;
 		_size	   = [30, 30];
@@ -403,10 +457,16 @@ switch (true) do {
 		_shortName = true;
 		_size	   = [30, 30];
 	};
+	case (_input in ["ENG4"]): {
+		_texture   = "\sc_mapmarkers\data\eng4.paa";
+		_color	   = _orange;
+		_shortName = true;
+		_size	   = [30, 30];
+	};
 
 
 	case (_input in ["IFV1"]): {
-		_texture   = "\sc_mapmarkers\data\ifv.paa";		// CAN BE REPLACED WITH IFV1.PAA IF MULTIPLE IFVS ARE BEING USED!
+		_texture   = "\sc_mapmarkers\data\ifv1.paa";
 		_color	   = _orange;
 		_shortName = true;
 		_size	   = [30, 30];
@@ -456,7 +516,7 @@ switch (true) do {
 
 
 	case (_input in ["TNK1"]): {
-		_texture   = "\sc_mapmarkers\data\tnk.paa";		// CAN BE REPLACED WITH TNK1.PAA IF MULTIPLE TNKS ARE BEING USED!
+		_texture   = "\sc_mapmarkers\data\tnk1.paa";
 		_color	   = _orange;
 		_shortName = true;
 		_size	   = [30, 30];
@@ -479,10 +539,34 @@ switch (true) do {
 		_shortName = true;
 		_size	   = [30, 30];
 	};
+	case (_input in ["TNK5"]): {
+		_texture   = "\sc_mapmarkers\data\tnk5.paa";
+		_color	   = _orange;
+		_shortName = true;
+		_size	   = [30, 30];
+	};
+	case (_input in ["TNK6"]): {
+		_texture   = "\sc_mapmarkers\data\tnk6.paa";
+		_color	   = _orange;
+		_shortName = true;
+		_size	   = [30, 30];
+	};
+	case (_input in ["TNK7"]): {
+		_texture   = "\sc_mapmarkers\data\tnk7.paa";
+		_color	   = _orange;
+		_shortName = true;
+		_size	   = [30, 30];
+	};
+	case (_input in ["TNK8"]): {
+		_texture   = "\sc_mapmarkers\data\tnk8.paa";
+		_color	   = _orange;
+		_shortName = true;
+		_size	   = [30, 30];
+	};
 
 
 	case (_input in ["APC1"]): {
-		_texture   = "\sc_mapmarkers\data\apc.paa";		// CAN BE REPLACED WITH APC1.PAA IF MULTIPLE APCS ARE BEING USED!
+		_texture   = "\sc_mapmarkers\data\apc1.paa";
 		_color	   = _orange;
 		_shortName = true;
 		_size	   = [30, 30];
@@ -501,6 +585,30 @@ switch (true) do {
 	};
 	case (_input in ["APC4"]): {
 		_texture   = "\sc_mapmarkers\data\apc4.paa";
+		_color	   = _orange;
+		_shortName = true;
+		_size	   = [30, 30];
+	};
+	case (_input in ["APC5"]): {
+		_texture   = "\sc_mapmarkers\data\apc5.paa";
+		_color	   = _orange;
+		_shortName = true;
+		_size	   = [30, 30];
+	};
+	case (_input in ["APC6"]): {
+		_texture   = "\sc_mapmarkers\data\apc6.paa";
+		_color	   = _orange;
+		_shortName = true;
+		_size	   = [30, 30];
+	};
+	case (_input in ["APC7"]): {
+		_texture   = "\sc_mapmarkers\data\apc7.paa";
+		_color	   = _orange;
+		_shortName = true;
+		_size	   = [30, 30];
+	};
+	case (_input in ["APC8"]): {
+		_texture   = "\sc_mapmarkers\data\apc8.paa";
 		_color	   = _orange;
 		_shortName = true;
 		_size	   = [30, 30];
