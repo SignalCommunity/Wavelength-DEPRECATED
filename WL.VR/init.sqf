@@ -1,4 +1,4 @@
-// ATHENA BUILD WL
+// BOREAS BUILD
 
 // All things marked F3 come from F3 code. All things marked otherwise come from that source.
 // ====================================================================================
@@ -181,5 +181,12 @@ if (!isNil "PABST_fnc_safeStart") then {[] spawn PABST_fnc_safeStart;};
 // This is currently in use. DAC HC is not in use, it should be turned off.
 
 //execVM "f\headlessclient\passToHCs.sqf";
+
+// ====================================================================================
+// ====================================================================================
+// WL - Safestart Fires Indicator
+// Credits: Bismarck
+
+[] execVM "f\admin\f_admin_fireIndicator.sqf";
 
 // ====================================================================================
