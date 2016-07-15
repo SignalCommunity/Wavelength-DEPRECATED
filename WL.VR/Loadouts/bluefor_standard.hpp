@@ -43,6 +43,10 @@ class blu_f {
     #define WEST_MAT "launch_B_Titan_short_F"
     #define WEST_MAT_MAG "Titan_AT:3"
 
+	// HAT
+    #define WEST_HAT "launch_B_Titan_short_F"
+    #define WEST_HAT_MAG "Titan_AT:3"
+
 	// SAM
     #define WEST_SAM "launch_B_Titan_F"
     #define WEST_SAM_MAG "Titan_AA:2"
@@ -199,6 +203,20 @@ class blu_f {
 
     class B_Soldier_AAT_F: B_Soldier_F {// MAT Spotter/Ammo Bearer
         backpackItems[] = {WEST_MAT_MAG};
+        linkedItems[] += {"ACE_Vector"};
+        items[] += {"ACRE_PRC148"};
+    };
+
+    class B_G_Soldier_LAT_F: B_Soldier_F {// HAT Gunner
+        weapons[] = {WEST_CARBINE};
+        magazines[] = {WEST_CARBINE_MAG,WEST_GRENADE,WEST_SMOKE_WHITE};
+        launchers[] = {WEST_HAT}; /// randomized
+        items[] = {"MEDICAL_STANDARD","ACRE_PRC148"};
+        backpackItems[] = {WEST_HAT_MAG};
+    };
+
+    class B_G_Soldier_A_F: B_Soldier_F {// HAT Spotter/Ammo Bearer
+        backpackItems[] = {WEST_HAT_MAG};
         linkedItems[] += {"ACE_Vector"};
         items[] += {"ACRE_PRC148"};
     };
