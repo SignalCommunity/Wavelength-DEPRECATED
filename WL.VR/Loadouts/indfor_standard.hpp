@@ -39,6 +39,10 @@ class ind_f {
 	// MAT
     #define IND_MAT "launch_RPG32_F"
     #define IND_MAT_MAG "RPG32_F:2","RPG32_HE_F:1"
+	
+	// HAT
+    #define IND_HAT "launch_RPG32_F"
+    #define IND_HAT_MAG "RPG32_F:2","RPG32_HE_F:1"
 
 	// SAM
     #define IND_SAM "launch_I_Titan_F"
@@ -198,6 +202,21 @@ class ind_f {
     class I_Soldier_AAT_F: I_Soldier_F {// MAT Spotter/Ammo Bearer
         backpack[] = {"B_AssaultPack_dgtl"};
         backpackItems[] += {IND_MAT_MAG};
+        linkedItems[] += {"ACE_Vector"};
+        items[] += {"ACRE_PRC148"};
+    };
+
+    class I_G_Soldier_A_F: I_Soldier_F {// HAT Gunner
+        weapons[] = {IND_CARBINE};
+        backpack[] = {"B_AssaultPack_dgtl"};
+        magazines[] = {IND_CARBINE_MAG,IND_GRENADE,IND_SMOKE_WHITE};
+        launchers[] = {IND_HAT}; /// randomized
+        backpackItems[] += {IND_HAT_MAG};
+    };
+
+    class I_G_Soldier_LAT_F: I_Soldier_F {// HAT Spotter/Ammo Bearer
+        backpack[] = {"B_AssaultPack_dgtl"};
+        backpackItems[] += {IND_HAT_MAG};
         linkedItems[] += {"ACE_Vector"};
         items[] += {"ACRE_PRC148"};
     };

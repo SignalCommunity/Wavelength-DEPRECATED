@@ -38,6 +38,10 @@ class opf_f {
 	// MAT
     #define EAST_MAT "launch_O_Titan_short_F"
     #define EAST_MAT_MAG "Titan_AT:2","Titan_AP:2"
+	
+	// HAT
+    #define EAST_HAT "launch_O_Titan_short_F"
+    #define EAST_HAT_MAG "Titan_AT:2","Titan_AP:2"
 
 	// SAM
     #define EAST_SAM "launch_O_Titan_F"
@@ -204,6 +208,23 @@ class opf_f {
         linkedItems[] += {"ACE_Vector"};
         items[] += {"ACRE_PRC148"};
 
+    };
+	
+	class O_soldierU_AT_F: O_Soldier_F {// HAT Gunner
+        weapons[] = {EAST_CARBINE};
+        backpack[] = {"B_Carryall_ocamo"};
+        magazines[] = {EAST_CARBINE_MAG,EAST_GRENADE,EAST_SMOKE_WHITE};
+        launchers[] = {EAST_HAT}; /// randomized
+        backpackItems[] += {EAST_HAT_MAG};
+        attachments[] = {};
+        // attachments[] = {"rhs_acc_1p63","rhs_acc_pgo7v","rhs_acc_dtk"};
+    };
+
+    class O_SoldierU_AAT_F: O_Soldier_F {// HAT Spotter/Ammo Bearer
+        backpack[] = {"B_Carryall_ocamo"};
+        backpackItems[] += {EAST_HAT_MAG};
+        linkedItems[] += {"ACE_Vector"};
+        items[] += {"ACRE_PRC148"};
     };
 
     class O_soldier_AA_F: O_Soldier_F {// SAM Gunner
