@@ -56,6 +56,20 @@ respawndelay = 3;
 respawnButton = 1;
 respawnOnStart = 0;
 respawnTemplates[] = {"f_spectator"};
+
+// ============================================================================================
+
+// F3 - Garbage Collector Settings
+// Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
+corpseManagerMode = 3;
+corpseLimit = 30;
+corpseRemovalMinTime = 30; //seconds
+corpseRemovalMaxTime = 1200; //seconds
+wreckManagerMode = 3;
+wreckLimit = 30;
+wreckRemovalMinTime = 30; //seconds
+wreckRemovalMaxTime = 1200; //seconds
+
 // ============================================================================================
 
 
