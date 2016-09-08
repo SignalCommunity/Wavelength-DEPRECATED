@@ -354,10 +354,6 @@ class CfgRespawnTemplates {
 // F3 - Menu components
 // DO NOT REMOVE OR DISABLE THIS BLOCK OF CODE
 
-// Menu components for the JIP Menu
-//#include "f\JIP\f_JIP_kitpicker.h"
-//#include "f\JIP\f_JIP_grppicker.h"
-
 // Menu components for the Spectator Script
 #include "f\spect\config.hpp"
 
