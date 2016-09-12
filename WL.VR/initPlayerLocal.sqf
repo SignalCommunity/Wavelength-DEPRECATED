@@ -5,7 +5,8 @@ params ["_player","_isJip"];
 // WL - ShackTac UI Settings
 
 STHud_NoSquadBarMode = true;
-STUI_Occlusion = false;
+// KEEP THIS ON FOR NOW... 
+//STUI_Occlusion = false;
 STUI_RemoveDeadViaProximity = true ;
 
 // ====================================================================================
