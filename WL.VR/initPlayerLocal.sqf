@@ -1,6 +1,12 @@
 params ["_player","_isJip"];
 //any
 
+// ====================================================================================
+// WL - ShackTac UI Settings
+
+STHud_NoSquadBarMode = true;
+STUI_Occlusion = false;
+STUI_RemoveDeadViaProximity = true ;
 
 // ====================================================================================
 // WL - JIP Units Auto-teleportation
