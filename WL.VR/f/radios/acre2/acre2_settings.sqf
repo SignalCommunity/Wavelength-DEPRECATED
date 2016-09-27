@@ -102,10 +102,10 @@ f_radios_settings_acre2_lr_groups_blufor = [
 	["Air 2", []],
 	["Armor 1", []],
 	["Armor 2", []],
-	["Weapons 1", [["MMG1", "HMG1", "MAT1", "HAT1",
+	["Weapons 1", ["MMG1", "HMG1", "MAT1", "HAT1",
 		    	   "MTR1", "MSAM1", "HSAM1",
-			   "ST1", "DT1", "ENG1"]],
-	["Weapons 2", [[]],
+			   "ST1", "DT1", "ENG1"],
+	["Weapons 2", []],
 ];
 
 f_radios_settings_acre2_lr_groups_opfor = f_radios_settings_acre2_lr_groups_blufor;
