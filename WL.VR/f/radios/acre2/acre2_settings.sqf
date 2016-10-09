@@ -127,6 +127,10 @@ f_radios_settings_acre2_lr_groups_indfor = f_radios_settings_acre2_lr_groups_blu
 // Sets whether transmissions will interfere with eachother. This, by default, causes signal loss when multiple people are transmitting on the same frequency.
 [true] call acre_api_fnc_setInterference;
 
+// ACRE Ignore Antenna direction
+// This setting can be used to disable the simulation of antenna radiation patterns for both the transmitting and receiving radios.
+[true] call acre_api_fnc_ignoreAntennaDirection;
+
 // ACRE can AI hear players?
 // False - AI not hear players, true - AI hear players.
 [false] call acre_api_fnc_setRevealToAI;

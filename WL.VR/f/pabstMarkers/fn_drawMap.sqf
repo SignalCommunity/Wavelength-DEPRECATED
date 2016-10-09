@@ -43,7 +43,7 @@ if ((diag_tickTime - F_Markers_lastUpdate) > 5) then {
 
 if((ctrlMapScale _mapControl) < 0.5) then {
     {
-        _tex = _x call ST_STHud_GetIconPicture;
+        _tex = _x call STHud_Icon;
         _color = switch (assignedTeam _x) do {
         case "RED": {[0.9,0,0,1]};
         case "YELLOW": {[0.9,0.9,0,1]};
